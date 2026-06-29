@@ -1,0 +1,99 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="880" height="210" viewBox="0 0 880 210" role="img" aria-label="Chen YiHo - Client Game Engineer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0f24"/>
+      <stop offset="0.55" stop-color="#13204a"/>
+      <stop offset="1" stop-color="#1c3370"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7afcff"/>
+      <stop offset="1" stop-color="#2e8bff"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" opacity="0.10"/>
+    </pattern>
+    <symbol id="heart" viewBox="0 0 7 6">
+      <rect x="1" y="0" width="2" height="1"/><rect x="4" y="0" width="2" height="1"/>
+      <rect x="0" y="1" width="7" height="2"/>
+      <rect x="1" y="3" width="5" height="1"/>
+      <rect x="2" y="4" width="3" height="1"/>
+      <rect x="3" y="5" width="1" height="1"/>
+    </symbol>
+  </defs>
+
+  <rect width="880" height="210" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#cfe3ff">
+    <rect x="120" y="26" width="3" height="3"/>
+    <rect x="300" y="18" width="3" height="3"/>
+    <rect x="470" y="34" width="3" height="3"/>
+    <rect x="610" y="22" width="3" height="3"/>
+    <rect x="760" y="40" width="3" height="3"/>
+    <rect x="200" y="58" width="2" height="2"/>
+    <rect x="540" y="60" width="2" height="2"/>
+    <rect x="690" y="64" width="2" height="2"/>
+    <rect x="820" y="70" width="2" height="2">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="380" y="48" width="2" height="2">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- pixel moon -->
+  <g fill="#f4f1c9">
+    <rect x="788" y="22" width="40" height="40"/>
+    <rect x="780" y="30" width="8" height="24"/>
+    <rect x="828" y="30" width="8" height="24"/>
+  </g>
+  <g fill="#13204a">
+    <rect x="806" y="30" width="8" height="8"/>
+    <rect x="818" y="44" width="6" height="6"/>
+  </g>
+
+  <!-- pixel gamepad -->
+  <g>
+    <rect x="44" y="104" width="132" height="46" fill="#28406f"/>
+    <rect x="74" y="92" width="72" height="16" fill="#28406f"/>
+    <rect x="44" y="104" width="132" height="6" fill="#3a5a99"/>
+    <!-- dpad -->
+    <rect x="70" y="116" width="10" height="26" fill="#e6edfb"/>
+    <rect x="62" y="124" width="26" height="10" fill="#e6edfb"/>
+    <!-- buttons -->
+    <rect x="138" y="116" width="12" height="12" fill="#ffd23f"/>
+    <rect x="154" y="130" width="12" height="12" fill="#38e1ff"/>
+    <rect x="138" y="130" width="12" height="12" fill="#ff5d5d"/>
+    <rect x="154" y="116" width="12" height="12" fill="#7afc8a"/>
+  </g>
+
+  <!-- title -->
+  <text x="210" y="96" font-family="'Courier New', monospace" font-size="46" font-weight="700" letter-spacing="4" fill="url(#title)">CHEN YIHO</text>
+  <text x="212" y="128" font-family="'Courier New', monospace" font-size="17" font-weight="700" letter-spacing="2" fill="#9fb4d8">CLIENT GAME ENGINEER  /  UNITY</text>
+
+  <!-- HP + level line -->
+  <g transform="translate(210,150)">
+    <text x="0" y="11" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#ff8a8a">HP</text>
+    <use href="#heart" x="26" y="0" width="14" height="12" fill="#ff5d5d"/>
+    <use href="#heart" x="44" y="0" width="14" height="12" fill="#ff5d5d"/>
+    <use href="#heart" x="62" y="0" width="14" height="12" fill="#ff5d5d"/>
+    <text x="92" y="11" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#ffd23f">LV.99  GAME DEV  -  KYOTO, JAPAN</text>
+  </g>
+
+  <!-- ground pixels -->
+  <g>
+    <rect x="0" y="186" width="880" height="24" fill="#11264a"/>
+    <rect x="0" y="186" width="880" height="4" fill="#27406e"/>
+  </g>
+  <g fill="#0c1b38">
+    <rect x="24" y="194" width="8" height="8"/>
+    <rect x="120" y="198" width="8" height="8"/>
+    <rect x="260" y="194" width="8" height="8"/>
+    <rect x="420" y="198" width="8" height="8"/>
+    <rect x="600" y="194" width="8" height="8"/>
+    <rect x="760" y="198" width="8" height="8"/>
+  </g>
+
+  <!-- crt scanlines -->
+  <rect width="880" height="210" fill="url(#scan)"/>
+</svg>

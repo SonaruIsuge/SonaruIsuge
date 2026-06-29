@@ -1,0 +1,52 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c3370"/>
+      <stop offset="1" stop-color="#0a0f24"/>
+    </linearGradient>
+    <pattern id="fscan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="120" fill="url(#fsky)"/>
+
+  <!-- stars -->
+  <g fill="#cfe3ff">
+    <rect x="90" y="20" width="3" height="3"/>
+    <rect x="320" y="14" width="2" height="2"/>
+    <rect x="560" y="24" width="3" height="3"/>
+    <rect x="700" y="16" width="2" height="2"/>
+  </g>
+
+  <!-- pixel bushes -->
+  <g fill="#163a2a">
+    <rect x="120" y="70" width="48" height="18"/>
+    <rect x="132" y="62" width="24" height="10"/>
+    <rect x="690" y="72" width="56" height="16"/>
+    <rect x="706" y="64" width="24" height="10"/>
+  </g>
+  <g fill="#1f5138">
+    <rect x="120" y="70" width="48" height="4"/>
+    <rect x="690" y="72" width="56" height="4"/>
+  </g>
+
+  <!-- center text -->
+  <text x="440" y="58" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" letter-spacing="3" fill="#7afcff">THANKS FOR VISITING</text>
+  <text x="440" y="84" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#ffd23f">PRESS START TO CONTINUE
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- ground -->
+  <rect x="0" y="96" width="880" height="24" fill="#11264a"/>
+  <rect x="0" y="96" width="880" height="4" fill="#27406e"/>
+  <g fill="#0c1b38">
+    <rect x="40" y="104" width="8" height="8"/>
+    <rect x="220" y="108" width="8" height="8"/>
+    <rect x="440" y="104" width="8" height="8"/>
+    <rect x="640" y="108" width="8" height="8"/>
+    <rect x="820" y="104" width="8" height="8"/>
+  </g>
+
+  <rect width="880" height="120" fill="url(#fscan)"/>
+</svg>
