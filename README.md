@@ -16,7 +16,9 @@
   <a href="https://www.linkedin.com/in/yi-ho-chen-914aa6293/">
     <img src="https://img.shields.io/badge/LinkedIn-Chen%20YiHo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=SonaruIsuge&style=for-the-badge&color=7aa2f7&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://sonaruisuge.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-Chen%20YiHo-7AA2FC?style=for-the-badge&logo=linkedin&logoColor=white" alt="Portfolio" />
+  </a>
 </p>
 
 ---
